@@ -1,4 +1,4 @@
-package com.madbunny.builderpattern;
+package com.madbunny.builderpattern.basic;
 
 /**
  * @author iqbal on 2019-05-10
