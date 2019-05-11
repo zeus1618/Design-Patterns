@@ -1,0 +1,11 @@
+Why Builder Pattern?
+Builder pattern helps us in creating immutable classes which require large set of state attributes.
+Example - A user object once created shouldn't be changed through out the app within a session. User can require firstName, lastName, age, phone, address.
+Now there can be variety of cases when one info is available and at times it's not. So to keep it immutable since we can't have setters, so we will have to make
+combinations of constructor which doesn't work out at it's best,
+hence builder patter allows you to intialize only what is provided without setters but using copy constructor.
+
+What builder patter provides
+1. Immutability
+2. Dynamic initialization
+
